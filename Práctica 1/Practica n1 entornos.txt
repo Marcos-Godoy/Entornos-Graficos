@@ -1,0 +1,98 @@
+﻿Práctica nº1 - HTML
+
+
+Ejercitación 1:
+
+
+1)  HTML es un lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones. Fue creado en 1990. Las principales versiones de HTML son: HTML 3.0, HTML 3.2, HTML 4.01, y la actual HTML 5.0.
+
+
+2) Los principios básicos que se deben seguir para la creación de un documento HTML son:
+* Un documento HTML comienza siempre con la etiqueta <HTML>, que indica que el documento en cuestión está construido con dicho lenguaje.
+*  La mayoría de las etiquetas son pareadas, es decir, <...> corresponde al principio de la acción y  </…> indica el fin de dicha acción.
+*  Una página web estará siempre contenida entre las etiquetas <HTML> y  </HTML>.
+* Todo documento consta de las etiquetas <HEAD> </HEAD> y <BODY> </BODY>.
+
+
+3) Muchos de los elementos y atributos de presentación del HTML se hicieron obsoletos cuando las hojas de estilos comenzaron a ofrecer mecanismos de presentación mucho más potentes. Por lo que en la especificación dichos elementos y atributos se marcan como "desaprobados". 
+
+
+4) Una definición de tipo de documento o DTD es una descripción de estructura y sintaxis de un documento HTML. En HTML 4.01 existen la Declaración transitoria y la Declaración estricta.
+
+
+5) Los metadatos son datos que describen datos, y HTML tiene una forma de introducir metadatos en un documento con el elemento <meta> que se ubica en el head del documento.
+
+
+Ejercitación 2:
+
+
+a) Puede colocarse en cualquier sección del documento. Es un comentario que no se visualizará en la página. En este caso no posee atributos. Su contenido es “Código controlado el día 12/08/2009”.
+
+
+b) Debería ir en la sección body, es un párrafo el cual se genera sin líneas vacías. Tiene una etiqueta de apertura <div> y otra de cierre </div>. Posee un atributo no obligatorio: id=”bloque1”, donde id es el nombre y bloque1 el contenido. Su contenido es: “Contenido del bloque1”.
+
+
+c) Este código se coloca en body, representa una imagen. Tiene una etiqueta de apertura <img> pero ninguna de cierre. Sus atributos con sus correspondientes nombre y valor son:  src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm". El único atributo obligatorio es src.
+
+
+d) Estos elementos usualmente se colocan en el head, y sirven para brindar más información sobre la página. Están compuestos por una única etiqueta de apertura <meta> y cuenta con los siguientes atributos name="keywords" lang="es" content="casa, compra, venta, alquiler " http-equiv="expires" content="16-Sep-2019 7:49 PM">, aunque no son obligatorios.
+
+
+e) Se coloca en el body, es un link a otro elemento. Tiene una etiqueta de apertura <a> y otra de cierre </a>. Sus atributos son href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help", siendo href el único obligatorio. El contenido es “Resumen HTML” y es el elemento enlazado.
+
+
+f) Se colocan en el body. Son elementos anidados y representan una tabla. El primero de sus elementos está compuesto por una etiqueta de apertura <table> y otra de cierre </table> y sus atributos son width="200" summary="Datos correspondientes al ejercicio vencido", de los cuales ninguno es obligatorio, aunque cambiaría el tamaño. El elemento del título se compone de una etiqueta de apertura <caption> y otra de cierre </caption> y un atributo no obligatorio (align="top"). Luego tenemos las tags  <tr> y </tr> que definen el comienzo y el final de una fila de la tabla, <th> y </th> para celdas del encabezado con el atributo no obligatorio scope="row" o scope="col", y <td> y </td> que definen el comienzo y el final del contenido de una celda.
+
+
+Ejercitación 3:
+ a)
+ <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+ En este caso se genera un elemento enlazado, el cual lleva a la página de búsqueda de Google, pero en la misma ventana.
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+ En este caso se genera un elemento enlazado, el cual lleva a la página de búsqueda de Google, pero abriendo una nueva pestaña.
+<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+ En esta no tenemos elemento enlazado, ni etiqueta de cierre, por lo que no representa nada.
+<a href="#">Click aquí para ir a Google</a>
+ En este caso tenemos un texto enlazado pero la referencia es un “#”, por lo que no se abrirá ninguna nueva página.
+<a href="#arriba">Click aquí para volver arriba</a>
+<a name="arriba" id="arriba"></a>
+ En este caso el contenido es distinto,y a diferencia de los demás se establece un anclaje dentro de la misma página, aunque no notamos la diferencia por estar cerca del elemento donde se produce el anclaje.
+
+
+b) <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+ En este caso el enlace se coloca en el texto “Click aqui”, y la imagen queda por separado.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+ Aquí el contenido de la etiqueta <a> es la imagen, por lo que será el elemento enlazado, y el texto quedará dentro de la etiqueta <p> pero separado de la imagen.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="ima
+gen1" />Click aquí</a></p>
+ Ambos serán contenidos de <a> y son ambos enlazados.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a
+href="http://www.google.com.ar">Click aquí</a></p>
+ Es igual al anterior con la diferencia de que son enlazados por separados (en etiquetas distintas).
+
+
+c) El primer caso es una lista desordenada de tres elementos por la etiqueta (<ul> </ul>), mientras que en el segundo la lista es desordenada por la etiqueta (<ol> </ol>), es decir es enumerada. En el tercer caso visualizamos tres listas ordenadas de un elemento cada una, y se establecen los números con el atributo “value”, notamos que quedan espacios después de cada una. En el cuarto código encontramos un párrafo presentado en bloque (con <blockquote>) en donde se hacen saltos de líneas, dando la impresión de una lista.
+
+
+d) En ambos casos son tablas de mismas dimensiones y bordes, y se visualizan idénticas. La diferencia está en que en el primero las celdas del encabezado se hacen con <th> y </th> para que queden en negrita, mientras que en el segundo se usa la etiqueta de celdas común, y se usan el atributo align="center" y la etiquetas <strong> y </strong>.
+
+
+e) Visualizamos los mismo en ambos casos, las tablas son de las mismas dimensiones y tienen el mismo contenido. En el primer código para colocar el Título se usa el elemento <caption>Título</caption>, mientras que en el segundo se utiliza una fila en la que se colapsan las columnas con el elemento <td colspan="3"><div align="center">Título</div></td>.
+
+
+f) En este caso las tablas presentadas son distintas. En la primera se combinan dos filas usando el atributo rowspan="2", mientras que en la segunda se combinan las dos primeras columnas de la segunda fila utilizando colspan="2". Cabe aclarar que el título en ambos casos es generado en la primera fila combinando todas las columnas.
+
+
+g) En estas tablas, vemos que cambian los bordes de las mismas, debido a que la segunda cuenta con los atributos cellpadding="0" y cellspacing="0". En ambas se muestran las mismas distribuciones de las celdas, pero se hicieron de maneras distintas utilizando los atributos colspan y rowspan.
+
+
+h) En este apartado tenemos tres formularios generados con el tag <form></form>. En la tercera y primera se utiliza <fieldset> para generar un recuadro y no haga falta utilizar <label>. En estos dos también se utiliza <legend> para establecer un título, a diferencia del segundo formulario.
+
+
+i) En la primera observamos un botón con una imagen y un texto dentro, y en la segunda observamos solamente el texto. Esto sucede básicamente porque en la primera se utiliza las etiquetas <button></button> dentro de las cuales podemos incluir una imagen con <img/> y un texto en negrita con <b>CLICK AQUÍ</b>, mientras que en la segunda solamente utilizamos la etiqueta <input/> y la establecimos del tipo button con type="button" y le dimos el texto con value="CLICK AQUÍ".
+
+
+j) Visualmente se ve en ambas, dos opciones para elegir. En el primer código sólo podemos elegir uno a la vez, debido a que se usa el atributo name="opcion" con el mismo valor en ambos, mientras que en el segundo los valores de este atributo son distintos lo que nos permite tener seleccionado los dos al mismo tiempo.
+
+
+h) En el primer segmento tenemos un conjunto de opciones desplegables, mientras que en el segundo tenemos las mismas opciones con una scrollbar que se realizó con el atributo multiple="multiple", dentro de la etiqueta principal <select></select>.
