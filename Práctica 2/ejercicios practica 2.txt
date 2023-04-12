@@ -1,0 +1,69 @@
+Ejercicio 2
+Este código se compone de tres reglas, la parte de declaración es la que aparece entre corchetes:
+Si utilizamos como atributo id, en el selector debe aparecer un "#".
+ 
+p#normal {
+	font-family: arial,helvetica;
+	font-size: 11px;
+	font-weight: bold;
+}
+En esta el selector es p#normal, el cual se asigna en la parte html gracias al atributo id="normal".
+Esta regla asigna al parrafo la fuente arial, un tamaño de 11px y en negrita.
+
+*#destacado {
+border-style: solid;
+border-color: blue;
+border-width: 2px;
+}
+En esta regla el selector es *#destacado, el cual se asigna  gracias al atributo id="destacado", tanto en una tabla como en un parrafo.
+El efecto que produce se ve en el parrafo y en la tabla, donde tenemos un borde solido azul de ancho dos pixeles.
+
+#distinto {
+background-color: #9EC7EB;
+color: red;
+}
+En esta el selector es #distinto, el cual se asigna en la parte html gracias al atributo id="distinto" sobre el parrafo.
+Aquí se asigno un color de fondo azul a través de un valor en hexadecimal y se puso el texto en color rojo.
+
+
+Ejercicio 3
+Este ejercicio tiene tres reglas, cada una esta compuesta por un selector y una declaración (lo que aparece entre corchetes).
+Si utilizamos como atributo class, en el selector debe aparecer un ".".
+
+p.quitar {
+color: red;
+}
+El selector es p.quitar, el cual se asigna con el atributo class="quitar".
+La regla es usada en el segundo parrafo, en el ultimo y en h1.
+Tiene solo una propiedad con el valor red, lo que producira que el texto se muestre rojo. 
+Pero notamos que no aplica en el h1, debido a que en el selector colocamos una p antes del punto.
+
+*.desarrollo {
+font-size: 8px;
+}
+El selector es *.desarrollo, el cual se asigna con el atributo class="desarrollo". 
+El "*" indica que vale para todas las etiquetas HTML.
+Se aplica únicamente al primer párrafo.
+El único efecto producido es cambiar la fuente a 8px.
+
+.importante {
+font-size: 20px;
+}
+El selector es .importante, el cual se asigna con el atributo class="importante".
+Aplica al último y al penúltimo párrafo.
+Cambia el tamaño de la fuente original a 20px. 
+En este último párrafo se le aplican dos reglas distintas gracias al uso de atributo class.
+
+
+Ejercicio 4:
+En el primer código se usan los atributos class="contenido" y style="font-weight: normal;" en el párrafo.
+Visualizamos que el "font-weight: bold" de la regla de CSS no producira efecto debido a que tiene más prioridad el atributo style="font-weight: normal;".
+En cuanto el "font-size: 14px" si se aplicará.
+
+En el segundo caso, tenemos el class="contenido" aplicado directamente al tag body.
+Esto hace que esa regla sea aplicada a todos los elementos anidados en body.
+Exepto al p, ya que tiene una regla especial con prioridad que define sus propiedades (font-family: arial,helvetica;font-size: 10px;color:black;).
+
+Algo común que se visuliza en ambos casos son las propiedades del elemento a.
+Los cuales se declararon con un conjunto de reglas, donde se usan los selectores a:link, a:visited, a:hover y a:active. 
+Los cuales definen el color del elemento enlazado cuando se pasa por encima con el mouse, cuando no lo esta y cuando lo presiono.
