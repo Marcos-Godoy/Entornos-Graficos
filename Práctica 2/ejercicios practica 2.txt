@@ -3,7 +3,9 @@ Ejercicio 1:
 página web. Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre
 textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
 
-2) Las reglas que se utilizan para los estilos estan constituidas por un selector y por la declaración que empieza y termina con llaves {}. A su vez las declaraciones están formadas por propiedades las cuales tienen sus valores. Basicamente CSS utiliza el selector para identificar a que elementos del archivo HTML se le van a aplicar las propiedades.
+2) Las reglas que se utilizan para los estilos estan constituidas por un selector y por la declaración que empieza y termina con llaves {}.
+A su vez las declaraciones están formadas por propiedades las cuales tienen sus valores.
+Basicamente CSS utiliza el selector para identificar a que elementos del archivo HTML se le van a aplicar las propiedades.
 
 3) Las tres formas de dar estilo a un documento son:
 	* Con una hoja de estilo externa vinculada a través del elemento <link>
