@@ -1,4 +1,33 @@
-Ejercicio 2
+Ejercicio 1:
+1) Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una
+página web. Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre
+textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
+
+2) Las reglas que se utilizan para los estilos estan constituidas por un selector y por la declaración que empieza y termina con llaves {}. A su vez las declaraciones están formadas por propiedades las cuales tienen sus valores. Basicamente CSS utiliza el selector para identificar a que elementos del archivo HTML se le van a aplicar las propiedades.
+
+3) Las tres formas de dar estilo a un documento son:
+	* Con una hoja de estilo externa vinculada a través del elemento <link>
+	* Con <style>, en el HTML, dentro de la sección <head>
+	* Con el atributo <style> directamente dentro de los elementos de <body>
+
+4) Los selectores mas comunes son:
+	* directamente el nombre del elemento, ejemplo: p {color: blue}
+	* utilizando el atributo id="nombre", ejemplo: #nombre {color: blue}
+	* utilizando el atributo class="nombre", ejemplo: .nombre {color: blue}
+
+5) Una pseudoclase es un selector que marca los elementos que están en un estado específico.
+ Los más utilizados para vinculos son:
+	* a:link (representa un elemento que aún no se ha visitado),
+	* a:visited (representa enlaces que el usuario ya ha visitado),
+	* a:hover (cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa)
+	* a:active (representa un elemento (como un botón) que el usuario está activando)
+
+6) La herencia es el proceso por el cual algunas propiedades CSS aplicadas a una etiqueta se pasan a las etiquetas anidadas.
+
+7) El proceso denominado cascada hace referencia a que el formato final de cualquier elemento depende de la combinación de todas las
+propiedades que afectan al elemento. 
+
+Ejercicio 2:
 Este código se compone de tres reglas, la parte de declaración es la que aparece entre corchetes:
 Si utilizamos como atributo id, en el selector debe aparecer un "#".
  
@@ -65,5 +94,5 @@ Esto hace que esa regla sea aplicada a todos los elementos anidados en body.
 Exepto al p, ya que tiene una regla especial con prioridad que define sus propiedades (font-family: arial,helvetica;font-size: 10px;color:black;).
 
 Algo común que se visuliza en ambos casos son las propiedades del elemento a.
-Los cuales se declararon con un conjunto de reglas, donde se usan los selectores a:link, a:visited, a:hover y a:active. 
+Los cuales se declararon con un conjunto de reglas, donde se usan los selectores (pseudo-clases) a:link, a:visited, a:hover y a:active. 
 Los cuales definen el color del elemento enlazado cuando se pasa por encima con el mouse, cuando no lo esta y cuando lo presiono.
