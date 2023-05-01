@@ -1,0 +1,43 @@
+Ejercicio 1:
+
+Variables: $a (booleano), $b y $c (string), $d (integer)
+Operadores: *, +=, ?, =
+Funciones: doble($d++), is_int($d), is_string($a), gettype($a)
+Estructuras de control: if
+Salida: Imprime los tipos de las variables.
+	Luego impime TRUE, "xyz", 'xyz', 18, 44, 34
+
+
+Ejercicio 2:
+
+a) En los tres casos se tendra la misma salida, osea los numeros del 1 al 10 (1, 2, 3, 4, 5, 6, 7, 8, 9, 10).
+
+b) En los cuatro casos se observa la misma salida, sea los numeros del 1 al 10.
+
+c) Ambos casos representan los mismo, un switch cumple la misma función que los elseif.
+
+
+Ejercicio 3:
+
+a) Este código genera una tabla HTML de 5 filas y 2 columnas, utilizando PHP.
+ El código PHP utiliza un bucle for para iterar sobre las filas y columnas de la tabla y generar las celdas vacías.
+ Luego, la tabla completa se imprime en la página utilizando echo.
+
+b) Este código PHP incrustado en una página HTML muestra un formulario que permite al usuario ingresar su edad.
+ Luego, utiliza una declaración condicional if-else para determinar si la edad ingresada es mayor o igual a 21 años y muestra un mensaje.
+
+
+Ejercicio 4:
+
+ La salida es:
+ ................
+ El clavel blanco
+ El archivo php principal recién tendrá conocimiento del contenido de las variables $color y $flor, después de la sentencia include 'datos.php';
+
+
+Ejercicio 5:
+
+ Este conjunto de archivos genera una página web, y cada vez que abrimos el archivo html, un contador en el archivo .dat se incrementará una unidad.
+ Debido a que se ejecuta el archivo contador.php al ingresar a la página.
+
+
