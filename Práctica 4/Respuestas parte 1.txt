@@ -1,3 +1,6 @@
+PHP: variables, tipos, operadores, expresiones, estructuras de control PHP: arrays, funciones
+
+
 Ejercicio 1:
 
 Variables: $a (booleano), $b y $c (string), $d (integer)
