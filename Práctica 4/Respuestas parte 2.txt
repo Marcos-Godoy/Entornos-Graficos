@@ -20,3 +20,12 @@ a) La salida es: Has entrado en esta pagina a las 0 horas, con 11 minutos y 3 se
  Accedemos a las varibles con $fun[x]
 
 b) La salida es: 5+6=11
+
+
+Ejercicio 4:
+
+ Esta función toma como argumento un string que representa el nombre del usuario.
+ Primero comprueba que la longitud sea mayor a 3 y menor a 20, en caso contrario sale de la función retornando false.
+ Luego define un alfabeto de permitidos en $permitidos.
+ En un for va recorriendo el string $nombre_usuario, si encuentra una letra que no este en el alfabeto, sale de la función con false.
+ Si cumple con los if's muestra que es válido y retorna true.
