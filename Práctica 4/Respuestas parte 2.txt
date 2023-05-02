@@ -1,0 +1,22 @@
+Ejercicio 1:
+
+ Ambos códigos php representan lo mismo.
+ En ambos se define una matriz asociativa, pero se le asignan sus valores de formas distintas.
+ Esto 'color' => 'rojo', representa lo mismo que esto $a['color'] = 'rojo';
+
+
+Ejercicio 2:
+
+a) La salida es: bar1
+
+b) La salida es: 5942
+
+c) No produce salida
+
+
+Ejercicio 3:
+
+a) La salida es: Has entrado en esta pagina a las 0 horas, con 11 minutos y 3 segundos, del 2/5/2023
+ Accedemos a las varibles con $fun[x]
+
+b) La salida es: 5+6=11
