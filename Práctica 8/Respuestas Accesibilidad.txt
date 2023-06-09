@@ -1,0 +1,111 @@
+
+
+1) La accesibilidad o accesibilidad universal es el grado en
+el que todas las personas pueden utilizar un objeto, visitar
+un lugar o acceder a un servicio, independientemente de
+sus capacidades técnicas, cognitivas o físicas. 
+
+2) La WAI (Iniciativa para la Accesibilidad Web) es una
+rama del World Wide Web Consortium que vela por
+la accesibilidad de la Web.
+
+
+4) Las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 es la última versión de las
+pautas de accesibilidad del contenido en la Web del World Wide Web Consortium
+(W3C). Están dirigidas a los web masters e indican cómo hacer que los contenidos del
+sitio web sean accesibles.
+
+5) Los niveles de prioridad establecidos por las pautas son los siguientes:
+Prioridad 1. Un desarrollador tiene que
+satisfacer este punto de verificación.
+Prioridad 2. Un desarrollador debe satisfacer
+este punto de verificación.
+Prioridad 3. Un desarrollador puede satisfacer
+este punto de verificación.
+
+6) Los niveles de conformidad establecidos son:
+Nivel A: Se satisfacen todos los puntos de
+verificación de prioridad 1.
+Nivel Doble A (AA): Se satisfacen todos los
+puntos de verificación de prioridad 1 y 2.
+Nivel Triple A (AAA): Se satisfacen todos los
+puntos de verificación de prioridad 1, 2 y 3 .
+
+7) El test de accesibilidad Web (TAW) es una herramienta desarrollada por la Unidad
+de Accesibilidad Web de la Fundación CTIC para el análisis de la accesibilidad de
+sitios web.
+
+
+8) la usabilidad es el rango en el cual un
+producto puede ser usado por unos usuarios específicos para alcanzar ciertas metas especificadas con
+efectividad, eficiencia y satisfacción en un contexto de uso especificado
+
+
+9) Buscabilidad y Visibilidad son dos conceptos que conforman la ubicuidad.
+ Buscabilidad se refiere a poder encontrar el sitio web a través del buscador, mientras que visibilidad significa visualizar el sitio luego de encontrarlo.
+
+
+10) La fidelidad en relación a un sitio web se refiere a que la persona vuelva a utilizar/acceder al sitio luego. Esto es generado por la usabilidad del sitio.
+ Se necesita una seducción permanente.
+
+11) La evaluación de la usabilidad determina cual es el nivel actual de la aplicación y si el diseño elegido funciona.
+ Existen diferentes técnicas para evaluar un sistema.
+1. Inspección formal de usabilidad.
+2. Testeo de usabilidad (Usability testing).
+3. Pensar en voz alta (Thinking aloud).
+4. Evaluación heurística y de estándares.
+5. Caminata cognitiva.
+
+
+12. La independencia de Dispositivo es la idea de que la información estará siempre disponible y accesible para el usuario, sin importar desde que dispositivo o lugar se encuentre, debido a que la Web es universal.
+ La ventaja desde el punto de vista del usuario es el acceso universal que se provee, desde cualquier lugar y en cualquier momento, gracias al avance de los mecanismos de conexión.
+ Mientras que la ventaja con respecto a los desarrolladores, es desarrollar el sitio una sola vez con muchas aplicaciones.
+
+
+13)
+ la internacionalización podría definirse como un proceso a
+través del cual se van a diseñar sitios Web adaptables a diferentes idiomas y regiones
+sin necesidad de realizar cambios en el código. La utilización de formatos y protocolos
+que no establezcan barreras a los diferentes idiomas, sistemas de escritura, códigos y
+otras convenciones locales, es esencial para hablar de internacionalización en un sitio
+Web.
+ Para que la internacionalización funcione correctamente es importante la codificación de datos, para que la Web trabaje internacionalmente y especificar el idioma del contenido con el objetivo de asegurar la adecuación cultural de formatos de datos y otros aspectos.
+
+
+14)
+Codificación. Utilice Unicode siempre que sea posible para contenidos, bases de datos,
+etc. Siempre declare la codificación del contenido.
+Escapes. Utilice caracteres en lugar de escapes (por ejemplo, &#xE1; &#225; o
+&aacute;) siempre que sea posible.
+Idioma. Declare el idioma de los documentos e indique los cambios de idioma internos.
+Presentación vs. contenido. Utilice hojas de estilo para información de presentación.
+Restrinja el uso de etiquetas para la semántica.
+Imágenes, animaciones& ejemplos. Verifique si es posible la traducción y si existe
+alguna influencia cultural inadecuada.
+Formularios. Utilice una codificación adecuada tanto en el formulario como en el
+servidor. Admita los formatos locales de nombres/direcciones, horas/fechas, etc.
+Autoría de texto. Utilice texto simple y conciso. Tenga cuidado al componer oraciones
+de cadenas múltiples.
+Navegación. Incluya en cada página una navegación que pueda verse claramente hacia
+las páginas o los sitios localizados, utilizando el idioma de llegada.
+Texto de derecha a izquierda. Para XHTML, agregue dir="rtl" a la etiqueta html.
+Utilícela nuevamente sólo para cambiar la dirección de base.
+
+
+15. 
+Se entiende por localización la adaptación de un producto, una aplicación o el contenido
+de un documento con el fin de adecuarlos a las necesidades (lingüísticas, culturales u
+otras) de un mercado destinatario concreto. 
+La internacionalización es el diseño y desarrollo de un producto, una aplicación o el
+contenido de un documento de modo tal que permita una fácil localización con destino a
+audiencias de diferentes culturas, regiones o idiomas.
+Obsérvese que esta lista no incluye necesariamente la localización del contenido, la
+aplicación o el producto hacia otro idioma; se trata más bien de prácticas de diseño y
+desarrollo que facilitan esa migración en el futuro, pero que también pueden tener una
+utilidad considerable aunque la localización jamás se produzca.
+
+
+16. A partir de la siguiente lista de comprobación para analizar un sitio web, diferenciar
+las preguntas que se refieren a aspectos de usabilidad (U) de las de accesibilidad (A).
+
+
