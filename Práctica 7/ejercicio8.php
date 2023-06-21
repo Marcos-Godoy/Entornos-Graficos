@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "‐//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1‐transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http‐equiv="Content‐Type" content="text/html; charset=utf‐8" />
+<title>Buscador</title>
+</head>
+<body>
+<?php
+include("conexion2.inc");
+$pal=$_POST['Palabra'];
+if($pal){
+    $resp = mysql_query("select * from buscador where canciones LIKE '%".$pal."%'") or die (mysql_error());
+    if(mysql_num_rows($resp) == "0") {
+    	echo "No existe la cancion.";
+    } else {
+            echo "RESULTADOS DE BUSQUEDA<br>";
+                   while($cat = mysql_fetch_array($resp)) {?>
+                   <td><?php echo ($cat['canciones']); ?></td>
+             
+</tr>    
+<tr>
+              <td colspan="5">
+  <?php                 }            }
+}else{
+echo "<form name='FormBuscador' method='post' action=''><input name='Palabra' type='text' id='Palabra'><input type='submit' name='Submit' value='Buscar'></form>";
+}?></body></html>
