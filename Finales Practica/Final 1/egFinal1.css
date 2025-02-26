@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+    font-family: arial;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.verde {
+    text-align: center;
+    background-color: green;
+}
+
+.rojo {
+    text-align: center;
+    vertical-align: center;
+    background-color: brown;
+}
+
+.azul {
+    background-color: lightskyblue;
+}
+
+#comentario {
+    width: 100%;
+}
