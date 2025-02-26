@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final 2</title>
+    <link rel="stylesheet" type="text/css" href="egFinal2.css">
+</head>
+<body>
+        <table style="background-color: lightblue; padding: 5px; border: 1px solid black;">
+            <tr>
+                <td>
+                    <div style="background-color: yellow; padding: 5px; border: 1px solid black;">
+                        <form action="egFinal2.php" method="post">
+                            <p><strong>Nueva Mascota</strong></p>
+                            <br>
+                            <label for="nombre">Nombre:</label>
+                            <br>
+                            <input type="text" name="nombre" id="nombre" required>
+                            <br>
+                            <label for="raza">Raza:</label>
+                            <br>
+                            <input type="raza" name="raza" id="raza" required>
+                            <br><br>
+                            <input type="submit" value="Guardar">
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                    <img src="perro.jpg" alt="Perro" width="200" height="200">
+                </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <form action="egFinal2.php" method="post">
+            <p><strong>Busqueda de historiales</strong></p>
+            <input type="text" name="historial" id="historial" required>
+            <br>
+            <input type="submit" value="Buscar">
+        </form>
+
+</body>
+</html>
