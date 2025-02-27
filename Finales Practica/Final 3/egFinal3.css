@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+form {
+    text-align: right;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.noticia {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 1.8em;
+}

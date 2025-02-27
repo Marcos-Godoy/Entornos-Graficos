@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final 4</title>
+    <link rel="stylesheet" type="text/css" href="egFinal4.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            border: 1px solid black;
+        }
+        .main-table td {
+            padding: 10px;
+        }
+        .inner-table {
+            width: 100%;
+        }
+        .inner-table td {
+            padding: 5px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table class="main-table" style="width: 100%; border: 1px solid black;">
+        <tr>
+            <td style="background-color: gray; width: 80%;">
+                <table class="inner-table">
+                    <tr>
+                        <td colspan="2">MI CV</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: gray;">Juan Nicolas Perez</td>
+                        <td rowspan="2"><img src="usuario.png" alt="Usuario"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: yellow;">Datos de Contacto</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Contacto
+                            <form action="egFinal4.php" method="post">
+                                <table class="inner-table">
+                                    <tr>
+                                        <td ><input type="text" placeholder="Nombre" name="nombre"></td>
+                                        <td><input type="email" placeholder="Email" name="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 80%;"><input type="text" placeholder="comentario" name="comentario" style="width: 100%;"></td>
+                                        <td style="width: 20%;"><input type="submit" value="Enviar" style="width: 100%;"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="background-color: green; width: 20%;">Espacio para banner color verde</td>
+        </tr>
+    </table>
+</body>
+</html>

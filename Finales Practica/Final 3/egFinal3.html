@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final 3</title>
+    <link rel="stylesheet" type="text/css" href="egFinal3.css">
+</head>
+<body>
+    <h1>Bienvenido!!!</h1>
+    <br>
+    <a href="https://www.frro.utn.edu.ar/">Ir a utn</a>
+    <br>
+    <form action="egFinal3.php" method="post">
+        <h2>Formulario de contacto</h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="producto">Producto:</label><br>
+        <input type="text" id="producto" name="producto" required>
+        <br>
+        <label for="mes">Mes del Año:</label><br>
+        <select id="mes" name="mes" required>
+            <option value="enero">Enero</option>
+            <option value="febrero">Febrero</option>
+            <option value="marzo">Marzo</option>
+            <option value="abril">Abril</option>
+            <option value="mayo">Mayo</option>
+            <option value="junio">Junio</option>
+            <option value="julio">Julio</option>
+            <option value="agosto">Agosto</option>
+            <option value="septiembre">Septiembre</option>
+            <option value="octubre">Octubre</option>
+            <option value="noviembre">Noviembre</option>
+            <option value="diciembre">Diciembre</option>
+        </select>
+        <br>
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" id="cantidad" name="cantidad" required>
+        <br>
+        <label for="acepto">Acepto los términos y condiciones</label>
+        <input type="checkbox" id="acepto" name="acepto" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br>
+        <table class="noticia" style="border: 1px solid gray; width: 60%;">
+            <td width="50%">
+                <div>
+                <p><strong>Se volvio viral.</strong> Un hincha chileno estallo de furia
+                    tras la derrota frente a la seleccion: "A ultima hora no".
+                </p>
+            </div>
+        </td>
+        <td width="50%">
+            <div>
+            <img src="hincha.jpg" alt="imagen" width="100%" height="auto">
+        </div></td>
+        
+    </table>
+
+</body>
+</html>
