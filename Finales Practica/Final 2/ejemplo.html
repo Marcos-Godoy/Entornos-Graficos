@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica</title>
+        <link rel="stylesheet" href="ejemplo.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <style>
+            
+            div {
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <br>
+        <div class="container" style="background-color: lightblue; border: 1px solid black;">
+            <div class="row">
+                <div class="col-6">
+                    <div style="background-color: yellow; border: 1px solid black;">
+                        <h3>Nueva Mascota</h3>
+                        <form action="ejemplo.php" method="post">
+                            <label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre" name="nombre"><br>
+                            <label for="raza">Raza:</label><br>
+                            <input type="text" id="raza" name="raza"><br><br>
+                            <input type="submit" value="Guardar">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div><img src="descarga.jpg" alt="" style="width: 100%;"></div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

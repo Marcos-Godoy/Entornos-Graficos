@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parcial</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="resolucion.css" type="text/css">
+    </head>
+    <body>
+        <h1>Bienvenido a nuestra pagina!!!</h1>
+        <a href="#">Prueba de enlaces...</a>
+    
+
+    <div style="display: flex; justify-content: flex-end;">
+        <form action="resolucion.php" method="post">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" >
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="producto">Nombre del Producto: </label>
+            <input type="text" name="producto" id="producto" required>
+            <br>
+            <label for="mes">Mes: </label>
+            <select name="mes" id="mes">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+            </select>
+            <br>
+            <label for="cantidad">Cantidad: </label>
+            <input type="number" name="cantidad" id="cantidad" required>
+            <br>
+            <label for="acepto">Acepto Terminos y Condiciones</label>
+            <input type="checkbox" name="acepto" id="acepto" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="centrar">
+                    <p style="font-size: 24px;"><strong>Se volvio viral.</strong> Un hincha chileno estallo de furia ante la derrota
+                    frente a la seleccion. A ultima hora no!!!</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div><img src="hincha.jpg" alt="" style="width: 100%;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    </body>
+</html>

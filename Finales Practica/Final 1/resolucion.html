@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resolución</title>
+    <link rel="stylesheet" href="resolucion.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .row {
+            padding: 10px;
+        }
+        .encabezado {
+            height: 40px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="encabezado" style="background-color: green;">
+                    Jugador: <strong>Gabriel Batistuta</strong>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <div><img src="batistuta.jpg" alt="" style="width: 100%;"></div>
+            </div>
+            <div class="col-7">
+                <div class="text-center" style="background-color: red; height: 100%;"><p>Parrafo con texto</p></div>
+            </div>
+        </div>
+        <div class="row" style="background-color: lightblue;">
+            <div class="col-12">
+                <div>
+                    <h6>Contacto para fichar</h6>
+                    <form action="resolucion.php" method="post">
+                        <div class="row">
+                            <div class="col-6">
+                                <div><input class="form-control" type="text" name="nombre" placeholder="Nombre" required></div>
+                            </div>
+                            <div class="col-6">
+                                <div><input class="form-control" type="text" name="email" placeholder="Email" required></div>
+                            </div>
+                        </div>
+                        <div class="row" >
+                            <div class="col-12">
+                                <input type="text" name="comentario" placeholder="Comentario" class="form-control" required>
+                            </div>
+                        </div>
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

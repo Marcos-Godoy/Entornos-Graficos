@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.centrar {
+    display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+}
+
+.row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
